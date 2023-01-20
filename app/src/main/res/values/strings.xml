@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Test sport</string>
+    <string name="test_failed">I\'m sorry, but you don\'t know this game very well. Can you find something else for yourself?</string>
+    <string name="test_merge">Pretty good result! Can you try even better?</string>
+    <string name="test_success">Congratulations! You really know football well.</string>
+
+    <string name="large_dialog">Football is without exaggeration the most popular sport in the world.
+        Everyone more or less knows the rules of the game, but how well do they know football itself?</string>
+    <string-array name="questionArray">
+        <item>Question №1\n
+            Why is the classic soccer ball painted checkered?
+        </item>
+        <item>Question №2\n
+            How many people were on the first football teams?
+        </item>
+        <item>Question №3\n
+            How much does the soccer ball weigh during the first pass?
+        </item>
+        <item>Question №4\n
+            Where is the village of Novorepnoye, immortalized by Kokorin?
+        </item>
+        <item>Question №5\n
+            In what country is football called a foot-thrower?
+        </item>
+        <item>Question №6\n
+            Who is Jabulani and why is he insidious?
+        </item>
+        <item>Question №7\n
+            Why do football players exchange jerseys after a match?
+        </item>
+        <item>Question №8\n
+            How did you come up with the colors of the red and yellow cards?
+        </item>
+    </string-array>
+    <string-array name="variable1">
+    <item>
+            With truncated iscoesdras, it is possible to assemble an ideal sphere from poorly bending leather from a substitute
+    </item>
+    <item>
+        11
+    </item>
+    <item>
+        220 g
+    </item>
+    <item>
+        In the Saratov region
+    </item>
+    <item>
+        Croatia
+    </item>
+    <item>
+        The referee of the finals CH-210 in South Africa, due to the strange refereeing of which the Spaniards lost to the Dutch
+    </item>
+    <item>
+        So they try to remember their opponents
+    </item>
+    <item>
+        These are the colors of the traffic lights
+    </item>
+    </string-array>
+    <string-array name="variable2">
+    <item>
+        Pentacles resembling a star symbolize victory
+    </item>
+        <item>
+            15
+    </item>
+        <item>
+            300 g
+    </item>
+        <item>
+            In computer game
+    </item>
+        <item>
+            Italy
+    </item>
+        <item>
+            Soccer ball flying in an unpredictable trajectory
+    </item>
+        <item>
+            Football players just collect clothes
+    </item>
+        <item>
+            These are the colors of the flag of Spain, where the player warning system was first used
+    </item>
+    </string-array>
+    <string-array name="variable3">
+    <item>
+            It looked like the balls of Ancient Sparta discovered by archaeologists.
+    </item>
+        <item>
+            100
+    </item>
+        <item>
+            400-450 g
+    </item>
+        <item>
+            Near Minsk
+    </item>
+        <item>
+            Brazil
+    </item>
+        <item>
+            Rolling trick invented by Ronaldinho
+    </item>
+        <item>
+            This is a way to express gratitude to the opponents for a good match.
+    </item>
+        <item>
+            These are the colors of popular candies.
+    </item>
+    </string-array>
+</resources>
