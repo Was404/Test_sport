@@ -2,21 +2,18 @@ package com.dk.test_sport;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.app.Dialog;
-import android.content.DialogInterface;
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import com.google.android.material.snackbar.Snackbar;
+
 
 public class MainActivity extends AppCompatActivity  {
 
-    Dialog dialog;
     TextView questions;
     String[] questionArray;
     String[] variable1;
@@ -35,21 +32,15 @@ public class MainActivity extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        questions = (TextView) findViewById(R.id.questions);
+        questions = findViewById(R.id.questions);
         questionArray = getResources().getStringArray(R.array.questionArray);
         variable1 = getResources().getStringArray(R.array.variable1);
         variable2 = getResources().getStringArray(R.array.variable2);
         variable3 = getResources().getStringArray(R.array.variable3);
-        btn_next = (ImageButton) findViewById(R.id.btn_next);
-        btn_1 = (Button) findViewById(R.id.btn_1);
-        btn_2 = (Button) findViewById(R.id.btn_2);
-        btn_3 = (Button) findViewById(R.id.btn_3);
-
-        dialog = new Dialog(MainActivity.this);
-        dialog.setTitle("");
-        dialog.setContentView(R.layout.activity_main);
-        TextView text = (TextView) dialog.findViewById(R.id.questions);
-        text.setText(R.string.large_dialog);
+        btn_next = findViewById(R.id.btn_next);
+        btn_1 = findViewById(R.id.btn_1);
+        btn_2 = findViewById(R.id.btn_2);
+        btn_3 = findViewById(R.id.btn_3);
 
         questions.setText(questionArray[0]);
         btn_1.setText(variable1[0]);
@@ -80,7 +71,7 @@ public class MainActivity extends AppCompatActivity  {
                     else if (btn_var1 <= 2){
                         questions.setText(R.string.test_failed);
                     }
-                    k = 0;
+                    k = -1;
                     count = 0;
                     btn_var1 = 0;
                     btn_1.setVisibility(View.INVISIBLE);
