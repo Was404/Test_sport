@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity  {
                             Toast.makeText(MainActivity.this, "Fetch and activate succeeded",
                                     Toast.LENGTH_SHORT).show();
                             String find = mFirebaseRemoteConfig.getString("url");
+                            //если не получаем то игра иначе сохраняем и запускаем веб
                             if (find == "EMULATOR||NO SIM"){
                                 Intent intent = new Intent(MainActivity.this, GameActivity.class);
                                 startActivity(intent);
